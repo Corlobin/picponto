@@ -9,6 +9,17 @@ Antes de começar, certifique-se de que você tem o arquivo da extensão (geralm
 
 ## Passo a Passo
 
+### Passo a passo visual, clique no botão abaixo
+
+<br/>
+<details>
+  <summary>PASSO A PASSO VISUAL</summary>
+  <img src ="passo1.png" width="600px" height="300px">
+  <img src ="passo2.png" width="900px" height="200px">
+  <img src ="passo3.png" width="250px" height="350px">
+</details>
+<br/>
+
 ### Passo 1: Abrir a Página de Extensões
 
 1. Abra o navegador Google Chrome.
@@ -35,3 +46,4 @@ Após selecionar a pasta, a extensão será carregada no Chrome e aparecerá na 
 ### Passo 6: Usar a Extensão
 
 Agora que a extensão está instalada, você pode começar a usá-la conforme necessário. Clique no ícone da extensão na barra de ferramentas para abrir qualquer interface de usuário ou popup que ela forneça, ou simplesmente navegue na web e deixe que a extensão funcione em segundo plano, dependendo de sua funcionalidade específica.
+
