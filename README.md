@@ -7,6 +7,15 @@
 
 Antes de começar, certifique-se de que você tem o arquivo da extensão (geralmente um arquivo `.zip`) disponível no seu computador. Se necessário, extraia os arquivos da extensão de um arquivo `.zip` para uma pasta em seu computador. Os arquivos da extensão se encontram na pasta desse projeto chamado "chrome-extension". Certifique-se que essa pasta esteja zipada.
 
+OBSERVAÇÃO: IMPORTANTE AS NOTIFICAÇÕES DO CHROME ESTAREM ATIVAS COMO NO EXEMPLO ABAIXO!
+
+<details>
+ <summary>NOTIFICAÇÕES CHROME</summary>
+ <img src = "https://github.com/Corlobin/picponto/assets/1748946/5cfe7865-e952-4ec0-8967-f9cb61ad651e"/> 
+</details>
+
+
+
 ## Passo a Passo
 
 ### Passo a passo visual, clique no botão abaixo
