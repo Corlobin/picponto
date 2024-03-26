@@ -27,14 +27,21 @@ chrome.alarms.onAlarm.addListener((alarm) => {
 
             if (now < startTime && new Date(now.getTime() + 60000) >= startTime) {
                 notificationOptions.message = 'A hora de bater o ponto para a entrada esta chegando.';
-                chrome.notifications.create(notificationOptions);
             } else if (now >= startTime && now <= new Date(startTime.getTime() + 60000)) {
                 notificationOptions.message = 'Lembre-se de bater o ponto de entrada.';
-                chrome.notifications.create(notificationOptions);
             } else if (now < endTime && new Date(now.getTime() + 60000) > endTime) {
                 notificationOptions.message = 'Lembre-se de bater o ponto da saída.';
-                chrome.notifications.create(notificationOptions);
             }
+
+            chrome.notifications.create(null, notificationOptions, function(notificationId) {
+                // Adiciona um evento de clique à notificação após a criação
+                chrome.notifications.onClicked.addListener(function(clickedNotificationId) {
+                    if (clickedNotificationId === notificationId) {
+                        // Abre a URL desejada em uma nova aba
+                        chrome.tabs.create({ url: "https://adp.picpay.com" });
+                    }
+                });
+            });
         });
     }
 });
