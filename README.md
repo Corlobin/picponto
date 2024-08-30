@@ -18,7 +18,10 @@ OBSERVAÇÃO: IMPORTANTE AS NOTIFICAÇÕES DO CHROME ESTAREM ATIVAS COMO NO EXEM
 
 ## Passo a Passo
 
-### Passo a passo visual, clique no botão abaixo
+### COMO BAIXAR? Para fazer o download
+![Captura de Tela 2024-08-30 às 11 03 23](https://github.com/user-attachments/assets/56341a70-35de-4e99-8c6a-06ee5a1bcef3)
+
+### COMO INSTALAR? Passo a passo visual, clique no botão abaixo
 
 <br/>
 <details>
